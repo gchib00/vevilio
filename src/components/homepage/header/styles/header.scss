@@ -1,0 +1,15 @@
+@import '../../../../global-files/global.scss';
+
+.header-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 38px;
+  background-color: $secondaryColor;
+  span {
+    color: $primaryColor;
+    font-weight: 500;
+    transition: 250ms;
+  }
+}
